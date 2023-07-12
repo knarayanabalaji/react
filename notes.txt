@@ -1,0 +1,103 @@
+ React.createElement gives ReactElement(which is JS Object) and it is rendered as HTMLElement
+
+ 
+ JSX - HTML like or XML like syntax
+ JSX (code is transpiled into regular js code before it is executed into the browser)- it is done by PARCEL - Babel.
+ Babel - (converts JSX code to react code).
+ Babel - Put in next-gen JavaScript --> Get browser-compatible JavaScript out.
+ JSX => React.createElement => ReactElement- JS Object => HTMLElement(render).
+ Attribute in JSX should be in camelCase format.
+ JSX expression can have only one parent element.
+ ex: 
+ <div id="container-1">
+    <h1>Container 1</h1>
+    <Title/>
+    <Title></Title>
+    {Title()}
+    { jsxHeading}
+    <h2>{number}</h2>
+    <h1>Namaste React Functional Component 🚀</h1>
+    </div>
+    <div id="container-2">
+            <h1>Container 2</h1>
+    </div>
+
+    in the above example we have two div's in parent level so this throws an error. we can overcome this by using <React.Fragment> :
+
+    <React.Fragment>
+   <div id="container-1">
+    <h1>Container 1</h1>
+    <Title/>
+    <Title></Title>
+    {Title()}
+    { jsxHeading}
+    <h2>{number}</h2>
+    <h1>Namaste React Functional Component 🚀</h1>
+    </div>
+    <div id="container-2">
+            <h1>Container 2</h1>
+    </div>
+    </React.Fragment>
+
+    (or)
+
+     <>
+   <div id="container-1">
+    <h1>Container 1</h1>
+    <Title/>
+    <Title></Title>
+    {Title()}
+    { jsxHeading}
+    <h2>{number}</h2>
+    <h1>Namaste React Functional Component 🚀</h1>
+    </div>
+    <div id="container-2">
+            <h1>Container 2</h1>
+    </div>
+    </>
+
+
+ React components:
+ React components - everything is components in react
+Two types of components in react => 
+1. class based components
+2. Funtional components 
+
+
+
+Functional component:
+It is just normal javascript function.
+a Functional component is normal javascript function which returns some piece of JSX.
+A JS function which returns a react element is called functional component.
+
+Note:
+When we create any functional component or any react component we need to name it with capital letter.
+
+it can be written in two ways:
+1. const HeadingComponent = () =>{
+    return <h1> Namaste</h1>
+}
+2. const HeadingComponent = () =>( <h1>Namaste</h1>) 
+
+what is component composition in react?
+components inside components is called component composition
+                  (or)
+composing two components into one another is called component composition
+ex: 
+const Title = () => {
+    return <h1>Namaste React🙏</h1>
+}
+
+const HeadingComponent = () =>{
+   return  <div id="container">
+    <Title/>
+    <Title></Title>
+    {Title()}
+    <h1>Namaste React Functional Component 🚀</h1>
+    </div>
+}
+
+in the above example title component is composed inside HeadingComponent.
+
+
+If we want to write any javascript code inside jsx we can write it inside curly braces i.e {}
