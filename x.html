@@ -1,4 +1,10 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CatPhotoApp</title>
+  </head>
   <body>
     <main>
       <h1>CatPhotoApp</h1>
@@ -10,7 +16,7 @@
           <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
           in our gallery.
         </p>
-        <a target="_blank" href="https://freecatphotoapp.com"
+        <a href="https://freecatphotoapp.com" target="_blank"
           ><img
             src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
             alt="A cute orange cat lying on its back."
@@ -52,28 +58,43 @@
             <legend>Is your cat an indoor or outdoor cat?</legend>
             <label
               ><input
-                type="radio"
                 id="indoor"
+                type="radio"
                 name="indoor-outdoor"
                 value="indoor"
+                checked
               />
               Indoor</label
             >
             <label
               ><input
-                type="radio"
                 id="outdoor"
+                type="radio"
                 name="indoor-outdoor"
                 value="outdoor"
-              />Outdoor</label
+              />
+              Outdoor</label
             >
           </fieldset>
           <fieldset>
-            <legend>
-                What's your cat's personality?
-            </legend>
-            <input type="checkbox" name="personality"> 
+            <legend>What's your cat's personality?</legend>
+            <input
+              id="loving"
+              type="checkbox"
+              name="personality"
+              value="loving"
+              checked
+            />
             <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy" />
+            <label for="lazy">Lazy</label>
+            <input
+              id="energetic"
+              type="checkbox"
+              name="personality"
+              value="energetic"
+            />
+            <label for="energetic">Energetic</label>
           </fieldset>
           <input
             type="text"
@@ -85,5 +106,11 @@
         </form>
       </section>
     </main>
+    <footer>
+      <p>
+        No Copyright -
+        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
   </body>
 </html>
