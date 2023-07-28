@@ -1,1569 +1,2224 @@
 const resList = [
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "667962",
-        name: "Paris Panini - Gourmet Sandwiches & Wraps",
-        uuid: "f259a8ff-15e1-4584-a714-4ec867531d87",
-        city: "1",
-        area: "Central Bangalore",
-        totalRatingsString: "500+ ratings",
-        cloudinaryImageId: "33101e2fff3a071cbd8b85e73c0d4f45",
-        cuisines: [
-          "Continental",
-          "Pastas",
-          "Salads",
-          "Snacks",
-          "Desserts",
-          "Fast Food",
-          "French",
-        ],
-        tags: [],
-        costForTwo: 50000,
-        costForTwoString: "₹500 FOR TWO",
-        deliveryTime: 37,
-        minDeliveryTime: 37,
-        maxDeliveryTime: 37,
-        slaString: "37 MINS",
-        lastMileTravel: 3.700000047683716,
-        slugs: {
-          restaurant:
-            "paris-panini-–-gourmet-sandwiches-central-bangalore-central-bangalore",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address: "NO 20, CHURCH STREET, BANGALORE,560001",
-        locality: "Church Street",
-        parentId: 21019,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        ribbon: [
-          {
-            type: "PROMOTED",
+        {
+          "info": {
+            "id": "43836",
+            "name": "McDonald's",
+            "cloudinaryImageId": "ee5f8e06b300efc07c9fe3f4df40dfc4",
+            "locality": "MG Road",
+            "areaName": "Ashok Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Burgers",
+              "Beverages",
+              "Cafe",
+              "Desserts"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+              "restaurantId": "43836",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "630",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 23,
+              "lastMileTravel": 2.8,
+              "serviceability": "SERVICEABLE",
+              "slaString": "23 mins",
+              "lastMileTravelString": "2.8 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 02:45:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "10% OFF",
+              "subHeader": "ABOVE ₹999",
+              "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
           },
-        ],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID:
-          "cid=7409795~p=1~eid=00000189-58aa-96ad-0c16-503f00e90109~srvts=1689409722029",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "3.7 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "40% OFF",
-          subHeader: "UPTO ₹100",
-          discountTag: "",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "667962",
-          deliveryTime: 37,
-          minDeliveryTime: 37,
-          maxDeliveryTime: 37,
-          lastMileTravel: 3.700000047683716,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: true,
-        avgRating: "4.5",
-        totalRatings: 500,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "3241",
-        name: "Meghana Foods",
-        uuid: "93695df0-56e1-417e-b9a8-32084ebaadaf",
-        city: "1",
-        area: "Ashok Nagar",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "e0vvulfbahjxjz6k4uwi",
-        cuisines: [
-          "Biryani",
-          "Andhra",
-          "South Indian",
-          "North Indian",
-          "Chinese",
-          "Seafood",
-        ],
-        tags: [],
-        costForTwo: 50000,
-        costForTwoString: "₹500 FOR TWO",
-        deliveryTime: 33,
-        minDeliveryTime: 33,
-        maxDeliveryTime: 33,
-        slaString: "33 MINS",
-        lastMileTravel: 4.300000190734863,
-        slugs: {
-          restaurant: "meghana-foods-central-bangalore",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "57/1, 1st Floor, Jayalaxmi Chambers, Next to Old Galaxy Theatre,Residency Road, Bangalore",
-        locality: "Residency Road",
-        parentId: 635,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "4.3 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "3241",
-          deliveryTime: 33,
-          minDeliveryTime: 33,
-          maxDeliveryTime: 33,
-          lastMileTravel: 4.300000190734863,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.5",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "484182",
-        name: "California Burrito",
-        uuid: "7a964c3d-6dfb-4598-aa6c-01e26129a17b",
-        city: "1",
-        area: "Basavanagudi",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "dgaistubp3t7pd2r2cff",
-        cuisines: [
-          "Mexican",
-          "American",
-          "Salads",
-          "Continental",
-          "Keto",
-          "Healthy Food",
-        ],
-        tags: [],
-        costForTwo: 25000,
-        costForTwoString: "₹250 FOR TWO",
-        deliveryTime: 33,
-        minDeliveryTime: 33,
-        maxDeliveryTime: 33,
-        slaString: "33 MINS",
-        lastMileTravel: 3,
-        slugs: {
-          restaurant: "california-burrito-basavanagudi-basavanagudi",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "97, Surya Gandhi Bazar, Main Road, Bangalore, Karnataka -560004",
-        locality: "Gandhi Bazaar",
-        parentId: 1252,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        ribbon: [
-          {
-            type: "PROMOTED",
+          "analytics": {
+            
           },
-        ],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/mcdonalds-mg-road-ashok-nagar-bangalore-43836",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "18975",
+            "name": "Nandhana Palace",
+            "cloudinaryImageId": "195876a3181ef63f76e45e3a7b49b585",
+            "locality": "Shivanahalli",
+            "areaName": "Rajajinagar",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+              "Biryani",
+              "Andhra",
+              "South Indian",
+              "North Indian"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+              "restaurantId": "18975",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 5800
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 5800
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "parentId": "2120",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 32,
+              "lastMileTravel": 6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "32 mins",
+              "lastMileTravelString": "6.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "availability": {
+              "nextCloseTime": "2023-07-27 02:00:00",
+              "opened": true
             },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID:
-          "cid=7300330~p=4~eid=00000189-58aa-96ad-0c16-504000e90421~srvts=1689409722029",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "3 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "484182",
-          deliveryTime: 33,
-          minDeliveryTime: 33,
-          maxDeliveryTime: 33,
-          lastMileTravel: 3,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: true,
-        avgRating: "4.5",
-        totalRatings: 1000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "121603",
-        name: "Kannur Food Point",
-        uuid: "51983905-e698-4e31-b0d7-e376eca56320",
-        city: "1",
-        area: "Tavarekere",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "bmwn4n4bn6n1tcpc8x2h",
-        cuisines: ["Kerala", "Chinese"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 30,
-        minDeliveryTime: 30,
-        maxDeliveryTime: 30,
-        slaString: "30 MINS",
-        lastMileTravel: 5.699999809265137,
-        slugs: {
-          restaurant: "kannur-food-point-btm",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "6/21,9TH CROSS ,1ST MAIN, VENKATESHWARA LAYOUT,SG PALYA, BENGALURU, - 560093",
-        locality: "SG Palya",
-        parentId: 20974,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 5300,
-              message: "",
+            "badges": {
+              
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
             },
-          ],
-          totalFees: 5300,
-          message: "",
-          title: "Delivery Charge",
-          amount: "5300",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "5.6 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "50% OFF",
-          subHeader: "",
-          discountTag: "FLAT DEAL",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "121603",
-          deliveryTime: 30,
-          minDeliveryTime: 30,
-          maxDeliveryTime: 30,
-          lastMileTravel: 5.699999809265137,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "3.9",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "689528",
-        name: "Shyamji's Chole Bhature",
-        uuid: "0ef63dab-40ff-4af7-862b-833b486690c9",
-        city: "1",
-        area: "Malleshwaram",
-        totalRatingsString: "100+ ratings",
-        cloudinaryImageId: "573ce264ceb9c76d27aaa0b7cb1e36c8",
-        cuisines: ["Street Food", "Chaat"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 40,
-        minDeliveryTime: 40,
-        maxDeliveryTime: 40,
-        slaString: "40 MINS",
-        lastMileTravel: 5.900000095367432,
-        slugs: {
-          restaurant: "shyamji's-chole-bhature-malleshwaram-malleshwaram",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "21/1,ground floor 10th cross , sampige road, Malleswaram Bangalore Karnataka 560003",
-        locality: "Sampige Road",
-        parentId: 255424,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        ribbon: [
-          {
-            type: "PROMOTED",
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
           },
-        ],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 5300,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 5300,
-          message: "",
-          title: "Delivery Charge",
-          amount: "5300",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID:
-          "cid=7477604~p=7~eid=00000189-58aa-96ad-0c16-504100e90728~srvts=1689409722029",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "5.9 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "689528",
-          deliveryTime: 40,
-          minDeliveryTime: 40,
-          maxDeliveryTime: 40,
-          lastMileTravel: 5.900000095367432,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: true,
-        avgRating: "4.1",
-        totalRatings: 100,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "33094",
-        name: "Sai Prasadam",
-        uuid: "57e418cb-b63e-4c6a-8764-c2fdbaef7611",
-        city: "1",
-        area: "Vijay Nagar",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "c9avtmayfq2xkak5avrh",
-        cuisines: [
-          "South Indian",
-          "North Indian",
-          "Jain",
-          "Fast Food",
-          "Chinese",
-        ],
-        tags: [],
-        costForTwo: 25000,
-        costForTwoString: "₹250 FOR TWO",
-        deliveryTime: 31,
-        minDeliveryTime: 31,
-        maxDeliveryTime: 31,
-        slaString: "31 MINS",
-        lastMileTravel: 5,
-        slugs: {
-          restaurant: "sai-prasadham-vijay-nagar-test-prod-area",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "#2193/27, 5th main road Rpc Layout. Vijaynagar Bengaluru- 560040",
-        locality: "RPC Layout",
-        parentId: 175359,
-        unserviceable: false,
-        veg: true,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 5300,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 5300,
-          message: "",
-          title: "Delivery Charge",
-          amount: "5300",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "5 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "₹100 OFF",
-          subHeader: "ABOVE ₹499",
-          discountTag: "FLAT DEAL",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "33094",
-          deliveryTime: 31,
-          minDeliveryTime: 31,
-          maxDeliveryTime: 31,
-          lastMileTravel: 5,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.1",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "210945",
-        name: "Royal Restaurant",
-        uuid: "9b33bca4-65e6-4a26-af3e-f47c4476ed4d",
-        city: "1",
-        area: "Shivajinagar",
-        totalRatingsString: "5000+ ratings",
-        cloudinaryImageId: "yicweopn4lzcjlqy4jvq",
-        cuisines: ["Chinese", "North Indian", "Tandoor"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 38,
-        minDeliveryTime: 38,
-        maxDeliveryTime: 38,
-        slaString: "38 MINS",
-        lastMileTravel: 4.300000190734863,
-        slugs: {
-          restaurant: "royal-restaurant-central-bangalore-central-bangalore",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "Broadway Road Police Station, HKP Road, Sulthangunta, Shivajinagar, Bengaluru, Bangalore Urban, Karnataka, India",
-        locality: "Sulthangunta",
-        parentId: 2896,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "4.3 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "210945",
-          deliveryTime: 38,
-          minDeliveryTime: 38,
-          maxDeliveryTime: 38,
-          lastMileTravel: 4.300000190734863,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "3.9",
-        totalRatings: 5000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "56428",
-        name: "Puliyogare Point",
-        uuid: "49970568-119d-436c-9dad-042d9c07c7ff",
-        city: "1",
-        area: "Basavanagudi",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "wet9zrjusmdtkk16jlrz",
-        cuisines: ["South Indian"],
-        tags: [],
-        costForTwo: 15000,
-        costForTwoString: "₹150 FOR TWO",
-        deliveryTime: 25,
-        minDeliveryTime: 25,
-        maxDeliveryTime: 25,
-        slaString: "25 MINS",
-        lastMileTravel: 3,
-        slugs: {
-          restaurant: "puliyogare-point-basavanagudi-basavanagudi",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address: "No 81, East Anjaneya Temple Street, N.R Colony, Basavanagudi",
-        locality: "N.R Colony",
-        parentId: 8409,
-        unserviceable: false,
-        veg: true,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "3 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "10% OFF",
-          subHeader: "UPTO ₹100",
-          discountTag: "",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "56428",
-          deliveryTime: 25,
-          minDeliveryTime: 25,
-          maxDeliveryTime: 25,
-          lastMileTravel: 3,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.5",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "65797",
-        name: "Leon's - Burgers & Wings (Leon Grill)",
-        uuid: "2ecdca25-3954-4f2e-8d50-4e13e2faf73e",
-        city: "1",
-        area: "Koramangala",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "r4ufflqojich0r29efvc",
-        cuisines: ["American", "Snacks", "Turkish", "Portuguese", "Continental"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 42,
-        minDeliveryTime: 42,
-        maxDeliveryTime: 42,
-        slaString: "42 MINS",
-        lastMileTravel: 6.5,
-        slugs: {
-          restaurant: "leon-grill-koramangala-koramangala",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "Plot No.123 K.H.B Colony, 5th Block , Koramangala , Bangalore -95",
-        locality: "Koramangala",
-        parentId: 371281,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        ribbon: [
-          {
-            type: "PROMOTED",
+          "analytics": {
+            
           },
-        ],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 6100,
-              message: "",
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/nandhana-palace-shivanahalli-rajajinagar-bangalore-18975",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "3369",
+            "name": "Truffles",
+            "cloudinaryImageId": "cd832b6167eb9f88aeb1ccdebf38d942",
+            "locality": "Ashok Nagar",
+            "areaName": "St Marks Road",
+            "costForTwo": "₹450 for two",
+            "cuisines": [
+              "American",
+              "Desserts",
+              "Continental",
+              "Italian"
+            ],
+            "avgRating": 4.5,
+            "feeDetails": {
+              "restaurantId": "3369",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "parentId": "218065",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 25,
+              "lastMileTravel": 2.7,
+              "serviceability": "SERVICEABLE",
+              "slaString": "25 mins",
+              "lastMileTravelString": "2.7 km",
+              "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:30:00",
+              "opened": true
             },
-          ],
-          totalFees: 6100,
-          message: "",
-          title: "Delivery Charge",
-          amount: "6100",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID:
-          "cid=7483846~p=13~eid=00000189-58aa-96ad-0c16-504300e90d78~srvts=1689409722029",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "6.5 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "65797",
-          deliveryTime: 42,
-          minDeliveryTime: 42,
-          maxDeliveryTime: 42,
-          lastMileTravel: 6.5,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: true,
-        avgRating: "4.3",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "41102",
-        name: "Hotel Empire",
-        uuid: "2ed63a05-161a-4095-aa9f-b97eeb27b716",
-        city: "1",
-        area: "Majestic",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "l5sjr78yn3vhopcvqgfb",
-        cuisines: ["North Indian", "Kebabs", "Biryani"],
-        tags: [],
-        costForTwo: 45000,
-        costForTwoString: "₹450 FOR TWO",
-        deliveryTime: 42,
-        minDeliveryTime: 42,
-        maxDeliveryTime: 42,
-        slaString: "42 MINS",
-        lastMileTravel: 3,
-        slugs: {
-          restaurant: "empire-restaurant-majestic-majestic",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "#70 , ABM RESIDENCY , 6TH CROSS, ANAND RAO CIRCLE OPP. SANDHYA RESIDENCY , SC ROAD , GANDHI NAGAR ,BANGALORE -560009",
-        locality: "Majestic",
-        parentId: 475,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
+            "badges": {
+              
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
             },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "3 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "10% OFF",
-          subHeader: "UPTO ₹40",
-          discountTag: "",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "41102",
-          deliveryTime: 42,
-          minDeliveryTime: 42,
-          maxDeliveryTime: 42,
-          lastMileTravel: 3,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.0",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "33083",
-        name: "Chikpet Donne Biryani House - Vijayanagar",
-        uuid: "f5611786-08ce-4e16-9144-f0ff9c26a335",
-        city: "1",
-        area: "Vijayanagar",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "cpbq1uck4icuhdqvuwb0",
-        cuisines: ["Biryani", "South Indian"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 25,
-        minDeliveryTime: 25,
-        maxDeliveryTime: 25,
-        slaString: "25 MINS",
-        lastMileTravel: 5.699999809265137,
-        slugs: {
-          restaurant: "donne-biryani-house-vijaynagar-vijayanagar",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "NO 105,Club road,Vijaynagar,Nr mcdonalds,Opp Titan showroom Blr-560040",
-        locality: "Club Road",
-        parentId: 347013,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 5300,
-              message: "",
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "reviewsSummary": {
+              
             },
-          ],
-          totalFees: 5300,
-          message: "",
-          title: "Delivery Charge",
-          amount: "5300",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "5.6 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "10% OFF",
-          subHeader: "ABOVE ₹900",
-          discountTag: "FLAT DEAL",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "33083",
-          deliveryTime: 25,
-          minDeliveryTime: 25,
-          maxDeliveryTime: 25,
-          lastMileTravel: 5.699999809265137,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.1",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "29063",
-        name: "Misu",
-        uuid: "e48dab10-bade-4287-b076-ac413a5bae51",
-        city: "1",
-        area: "St Marks Road",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "lx0tpfgsbqygafwh30wh",
-        cuisines: [
-          "Asian",
-          "Chinese",
-          "Vietnamese",
-          "Malaysian",
-          "Sushi",
-          "Singaporean",
-          "Desserts",
-        ],
-        tags: [],
-        costForTwo: 130000,
-        costForTwoString: "₹1300 FOR TWO",
-        deliveryTime: 40,
-        minDeliveryTime: 40,
-        maxDeliveryTime: 40,
-        slaString: "40 MINS",
-        lastMileTravel: 2.5999999046325684,
-        slugs: {
-          restaurant: "misu-st-marks-road-central-bangalore",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "4th Floor, Halcyon Complex, Saint Marks Road, Ashok Nagar, Bengaluru, Karnataka 560001",
-        locality: "Ashok Nagar",
-        parentId: 7415,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        ribbon: [
-          {
-            type: "PROMOTED",
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
           },
-        ],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 2800,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 2800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "2800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID:
-          "cid=7228903~p=16~eid=00000189-58aa-96ad-0c16-504400e91028~srvts=1689409722029",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "2.5 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "50% OFF",
-          subHeader: "UPTO ₹100",
-          discountTag: "",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "29063",
-          deliveryTime: 40,
-          minDeliveryTime: 40,
-          maxDeliveryTime: 40,
-          lastMileTravel: 2.5999999046325684,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: true,
-        avgRating: "4.4",
-        totalRatings: 1000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "537139",
-        name: "Narmada Chain Of Restaurant",
-        uuid: "6a6d3d2a-2c66-45ae-9772-e8c4dd08c794",
-        city: "1",
-        area: "Koramangala",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "gmcud4kfjsy2kf2bbrme",
-        cuisines: ["Biryani", "Andhra", "South Indian"],
-        tags: [],
-        costForTwo: 50000,
-        costForTwoString: "₹500 FOR TWO",
-        deliveryTime: 36,
-        minDeliveryTime: 36,
-        maxDeliveryTime: 36,
-        slaString: "36 MINS",
-        lastMileTravel: 6,
-        slugs: {
-          restaurant: "narmada-group-of-hotels-koramangala-koramangala",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "No. 4, 1st Main Road, 5th Block, Beside Coffee Day, Koramangala, Bangalore 560095",
-        locality: "Koramangala",
-        parentId: 322826,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 6100,
-              message: "",
-            },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
-            },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
-            },
-          ],
-          totalFees: 6100,
-          message: "",
-          title: "Delivery Charge",
-          amount: "6100",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 1,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "6 kms",
-        hasSurge: false,
-        sla: {
-          restaurantId: "537139",
-          deliveryTime: 36,
-          minDeliveryTime: 36,
-          maxDeliveryTime: 36,
-          lastMileTravel: 6,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "IT_IS_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: false,
-        avgRating: "4.3",
-        totalRatings: 1000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "342643",
-        name: "The Pizza Bakery",
-        uuid: "fdf44d9a-3d5f-4c7d-aac7-80bc3a1d68d0",
-        city: "1",
-        area: "Ashok Nagar",
-        totalRatingsString: "1000+ ratings",
-        cloudinaryImageId: "l7zme8yryk6adeakj6jy",
-        cuisines: ["Pizzas", "Pastas", "Italian", "Desserts", "Continental"],
-        tags: [],
-        costForTwo: 70000,
-        costForTwoString: "₹700 FOR TWO",
-        deliveryTime: 38,
-        minDeliveryTime: 38,
-        maxDeliveryTime: 38,
-        slaString: "38 MINS",
-        lastMileTravel: 3,
-        slugs: {
-          restaurant: "the-pizza-bakery-central-bangalore-central-bangalore",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "The Pizza Bakery, 86, Spenser Building, Church Street, Bangalore 560001",
-        locality: "Church Street",
-        parentId: 11108,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        ribbon: [
-          {
-            type: "PROMOTED",
+          "analytics": {
+            
           },
-        ],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 3800,
-              message: "",
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/truffles-ashok-nagar-st-marks-road-bangalore-3369",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "393984",
+            "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+            "cloudinaryImageId": "tha6ydiqy1td1e4yrx6u",
+            "locality": "2nd Stage",
+            "areaName": "Basavanagudi",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+              "Desserts",
+              "Ice Cream",
+              "Ice Cream Cakes"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "393984",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 5200
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 5200
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "parentId": "582",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "100+",
+            "sla": {
+              "deliveryTime": 30,
+              "lastMileTravel": 5,
+              "serviceability": "SERVICEABLE",
+              "slaString": "30 mins",
+              "lastMileTravelString": "5.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "availability": {
+              "nextCloseTime": "2023-07-26 21:29:00",
+              "opened": true
             },
-          ],
-          totalFees: 3800,
-          message: "",
-          title: "Delivery Charge",
-          amount: "3800",
-          icon: "",
-        },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
-        },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID:
-          "cid=7409649~p=19~eid=00000189-58aa-96ad-0c16-504500e91306~srvts=1689409722029",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
-        },
-        lastMileTravelString: "3 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "40% OFF",
-          subHeader: "UPTO ₹100",
-          discountTag: "",
-          headerTypeV2: 0,
-        },
-        sla: {
-          restaurantId: "342643",
-          deliveryTime: 38,
-          minDeliveryTime: 38,
-          maxDeliveryTime: 38,
-          lastMileTravel: 3,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
-        },
-        promoted: true,
-        avgRating: "4.4",
-        totalRatings: 1000,
-        new: false,
-      },
-      subtype: "basic",
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "145076",
-        name: "Halli Jonne Biriyani",
-        uuid: "818bd70e-3640-4739-85ea-e79d4c333c75",
-        city: "1",
-        area: "Jayanagar",
-        totalRatingsString: "10000+ ratings",
-        cloudinaryImageId: "hukiflnai1hosydergnx",
-        cuisines: ["South Indian", "Biryani"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
-        deliveryTime: 45,
-        minDeliveryTime: 45,
-        maxDeliveryTime: 45,
-        slaString: "45 MINS",
-        lastMileTravel: 5,
-        slugs: {
-          restaurant: "halli-jonne-biriyani-jayanagar",
-          city: "bangalore",
-        },
-        cityState: "1",
-        address:
-          "44, 4, 13th Main Rd, Opp BHS College, 4th T Block East, KV Layout, Jayanagar, Bengaluru, Karnataka 560011",
-        locality: "4th T Block",
-        parentId: 21321,
-        unserviceable: false,
-        veg: false,
-        select: false,
-        favorite: false,
-        tradeCampaignHeaders: [],
-        chain: [],
-        feeDetails: {
-          fees: [
-            {
-              name: "distance",
-              fee: 5300,
-              message: "",
+            "badges": {
+              
             },
-            {
-              name: "time",
-              fee: 0,
-              message: "",
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
             },
-            {
-              name: "special",
-              fee: 0,
-              message: "",
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
             },
-          ],
-          totalFees: 5300,
-          message: "",
-          title: "Delivery Charge",
-          amount: "5300",
-          icon: "",
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-2nd-stage-basavanagudi-bangalore-393984",
+            "type": "WEBLINK"
+          }
         },
-        availability: {
-          opened: true,
-          nextOpenMessage: "",
-          nextCloseMessage: "",
+        {
+          "info": {
+            "id": "77949",
+            "name": "Burger King",
+            "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+            "locality": "Gandhi Bazar",
+            "areaName": "Basavanagudi",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+              "Burgers",
+              "American"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+              "restaurantId": "77949",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3300
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3300
+            },
+            "parentId": "166",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 27,
+              "lastMileTravel": 3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "27 mins",
+              "lastMileTravelString": "3.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 01:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "60% OFF",
+              "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/burger-king-gandhi-bazar-basavanagudi-bangalore-77949",
+            "type": "WEBLINK"
+          }
         },
-        longDistanceEnabled: 0,
-        rainMode: "NONE",
-        thirdPartyAddress: false,
-        thirdPartyVendor: "",
-        adTrackingID: "",
-        badges: {
-          imageBased: [],
-          textBased: [],
-          textExtendedBadges: [],
+        {
+          "info": {
+            "id": "17301",
+            "name": "KFC",
+            "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
+            "locality": "Vani Vilas Road",
+            "areaName": "Basavanagudi",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Burgers",
+              "Biryani",
+              "American",
+              "Snacks",
+              "Fast Food"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+              "restaurantId": "17301",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "547",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 24,
+              "lastMileTravel": 2.8,
+              "serviceability": "SERVICEABLE",
+              "slaString": "24 mins",
+              "lastMileTravelString": "2.8 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "20% OFF",
+              "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/kfc-vani-vilas-road-basavanagudi-bangalore-17301",
+            "type": "WEBLINK"
+          }
         },
-        lastMileTravelString: "5 kms",
-        hasSurge: false,
-        aggregatedDiscountInfoV3: {
-          header: "10% OFF",
-          subHeader: "UPTO ₹40",
-          discountTag: "",
-          headerTypeV2: 0,
+        {
+          "info": {
+            "id": "30531",
+            "name": "Hotel Empire",
+            "cloudinaryImageId": "qltgnkyywuo5gmnpqzbm",
+            "locality": "Brigade Road",
+            "areaName": "Church Street",
+            "costForTwo": "₹450 for two",
+            "cuisines": [
+              "North Indian",
+              "Kebabs",
+              "Biryani"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+              "restaurantId": "30531",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3300
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3300
+            },
+            "parentId": "475",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 27,
+              "lastMileTravel": 3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "27 mins",
+              "lastMileTravelString": "3.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 04:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "10% OFF",
+              "subHeader": "UPTO ₹40"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/hotel-empire-brigade-road-church-street-bangalore-30531",
+            "type": "WEBLINK"
+          }
         },
-        sla: {
-          restaurantId: "145076",
-          deliveryTime: 45,
-          minDeliveryTime: 45,
-          maxDeliveryTime: 45,
-          lastMileTravel: 5,
-          lastMileDistance: 0,
-          serviceability: "SERVICEABLE",
-          rainMode: "NONE",
-          longDistance: "NOT_LONG_DISTANCE",
-          preferentialService: false,
-          iconType: "EMPTY",
+        {
+          "info": {
+            "id": "393107",
+            "name": "EatFit",
+            "cloudinaryImageId": "94d3bc5e6392fbaf50686cf8cfab10ef",
+            "locality": "Ali Asker Road",
+            "areaName": "Cunningham Road",
+            "costForTwo": "₹270 for two",
+            "cuisines": [
+              "Healthy Food",
+              "Pizzas",
+              "North Indian",
+              "Thalis",
+              "Biryani",
+              "Chinese"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+              "restaurantId": "393107",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "76139",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 25,
+              "lastMileTravel": 4.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "25 mins",
+              "lastMileTravelString": "4.1 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:59:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "brand",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "brand"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "40% OFF",
+              "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/eatfit-ali-asker-road-cunningham-road-bangalore-393107",
+            "type": "WEBLINK"
+          }
         },
-        promoted: false,
-        avgRating: "4.3",
-        totalRatings: 10000,
-        new: false,
-      },
-      subtype: "basic",
-    },
+        {
+          "info": {
+            "id": "197238",
+            "name": "The Belgian Waffle Co.",
+            "cloudinaryImageId": "qz87jfwfkuwgkqvxu7cw",
+            "locality": "SRI Vasavi Temple Street",
+            "areaName": "Basavanagudi",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+              "Waffle",
+              "Desserts",
+              "Ice Cream",
+              "Beverages"
+            ],
+            "avgRating": 4.2,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "197238",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "2233",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 27,
+              "lastMileTravel": 2.3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "27 mins",
+              "lastMileTravelString": "2.3 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 00:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "20% OFF",
+              "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-sri-vasavi-temple-street-basavanagudi-bangalore-197238",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "431856",
+            "name": "Baskin Robbins - Ice Cream Desserts",
+            "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+            "locality": "Global mall",
+            "areaName": "Rajajinagar",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+              "Desserts",
+              "Ice Cream"
+            ],
+            "avgRating": 4.1,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "431856",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 5200
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 5200
+            },
+            "parentId": "5588",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10+",
+            "sla": {
+              "deliveryTime": 35,
+              "lastMileTravel": 5,
+              "serviceability": "SERVICEABLE",
+              "slaString": "35 mins",
+              "lastMileTravelString": "5.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 22:30:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "30% OFF",
+              "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-global-mall-rajajinagar-bangalore-431856",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "124178",
+            "name": "Starbucks Coffee",
+            "cloudinaryImageId": "4df3497f1460dfd1ecd8125222f6d362",
+            "locality": "Ashok Nagar",
+            "areaName": "Lavelle Road",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Beverages",
+              "Cafe",
+              "Snacks",
+              "Desserts",
+              "Bakery",
+              "Ice Cream"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+              "restaurantId": "124178",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "195515",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 22,
+              "lastMileTravel": 2.3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "22 mins",
+              "lastMileTravelString": "2.3 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:59:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "30% OFF",
+              "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/starbucks-coffee-ashok-nagar-lavelle-road-bangalore-124178",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "396748",
+            "name": "The Good Bowl",
+            "cloudinaryImageId": "bmvfxp5sx00nfio28vhb",
+            "locality": "Residency Road",
+            "areaName": "Shantinagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Biryani",
+              "North Indian",
+              "Pastas",
+              "Punjabi",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+              "restaurantId": "396748",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "7918",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "100+",
+            "sla": {
+              "deliveryTime": 26,
+              "lastMileTravel": 2.3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "26 mins",
+              "lastMileTravelString": "2.3 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 00:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "60% OFF",
+              "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-good-bowl-residency-road-shantinagar-bangalore-396748",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "29673",
+            "name": "Natural Ice Cream",
+            "cloudinaryImageId": "on12tk5aqza0stxxsqhc",
+            "locality": "Ashok Nagar",
+            "areaName": "St Marks Road",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+              "Ice Cream",
+              "Desserts"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "29673",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3300
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3300
+            },
+            "parentId": "2093",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 22,
+              "lastMileTravel": 3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "22 mins",
+              "lastMileTravelString": "3.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 00:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "20% OFF",
+              "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/natural-ice-cream-ashok-nagar-st-marks-road-bangalore-29673",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "16073",
+            "name": "California Burrito",
+            "cloudinaryImageId": "27238ee4292d42c7b705f2ce8671ff80",
+            "locality": "Malleshwaram",
+            "areaName": "Malleshwaram",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+              "Mexican",
+              "American",
+              "Salads",
+              "Continental",
+              "Keto",
+              "Healthy Food"
+            ],
+            "avgRating": 4.6,
+            "feeDetails": {
+              "restaurantId": "16073",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 5200
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 5200
+            },
+            "parentId": "1252",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 40,
+              "lastMileTravel": 5,
+              "serviceability": "SERVICEABLE",
+              "slaString": "40 mins",
+              "lastMileTravelString": "5.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "20% OFF",
+              "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/california-burrito-malleshwaram-bangalore-16073",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "102334",
+            "name": "Dindigul Thalappakatti",
+            "cloudinaryImageId": "ogidjgqgh5w4otvuiipj",
+            "locality": "Mg Road",
+            "areaName": "MG Road",
+            "costForTwo": "₹650 for two",
+            "cuisines": [
+              "Biryani",
+              "Barbecue",
+              "South Indian",
+              "Chinese",
+              "North Indian"
+            ],
+            "avgRating": 4,
+            "feeDetails": {
+              "restaurantId": "102334",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "332",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 31,
+              "lastMileTravel": 4.7,
+              "serviceability": "SERVICEABLE",
+              "slaString": "31 mins",
+              "lastMileTravelString": "4.7 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:59:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/dindigul-thalappakatti-mg-road-bangalore-102334",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "614642",
+            "name": "Soul Rasa",
+            "cloudinaryImageId": "v9fczzlua1wnrx63fh1g",
+            "locality": "Akkithimanahalli",
+            "areaName": "Shanti Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Indian",
+              "Healthy Food",
+              "Home Food",
+              "South Indian",
+              "North Indian"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+              "restaurantId": "614642",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "239281",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "500+",
+            "sla": {
+              "deliveryTime": 25,
+              "lastMileTravel": 2.4,
+              "serviceability": "SERVICEABLE",
+              "slaString": "25 mins",
+              "lastMileTravelString": "2.4 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:30:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "brand",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "brand"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "60% OFF",
+              "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/soul-rasa-akkithimanahalli-shanti-nagar-bangalore-614642",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "93499",
+            "name": "Oven Story Pizza",
+            "cloudinaryImageId": "ab979bffbd658e74de650a15ca0092a3",
+            "locality": "Rashtriya Vidyalaya Rd",
+            "areaName": "Jayanagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+              "Pizzas",
+              "Pastas",
+              "Italian",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+              "restaurantId": "93499",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "3534",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 31,
+              "lastMileTravel": 2.9,
+              "serviceability": "SERVICEABLE",
+              "slaString": "26-36 mins",
+              "lastMileTravelString": "2.9 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-27 01:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "₹125 OFF",
+              "subHeader": "ABOVE ₹1099",
+              "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/oven-story-pizza-rashtriya-vidyalaya-rd-jayanagar-bangalore-93499",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "593",
+            "name": "Anand Sweets & Savouries",
+            "cloudinaryImageId": "8d786951646dc137f9bf859727f90391",
+            "locality": "4th Block",
+            "areaName": "Jayanagar",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+              "Sweets",
+              "Chaat",
+              "Snacks",
+              "Desserts",
+              "North Indian"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "593",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "53",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 27,
+              "lastMileTravel": 4.2,
+              "serviceability": "SERVICEABLE",
+              "slaString": "27 mins",
+              "lastMileTravelString": "4.2 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 22:00:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/anand-sweets-and-savouries-4th-block-jayanagar-bangalore-593",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "69274",
+            "name": "Chai Point",
+            "cloudinaryImageId": "zoc6jrwby69bpa8qzcxc",
+            "locality": "Ashok Nagar",
+            "areaName": "Church Street",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+              "Bakery",
+              "Beverages",
+              "Maharashtrian",
+              "Snacks",
+              "Street Food",
+              "South Indian",
+              "Punjabi",
+              "Chaat",
+              "Indian",
+              "American",
+              "North Indian",
+              "Fast Food",
+              "Desserts",
+              "Cafe",
+              "Healthy Food",
+              "Home Food"
+            ],
+            "avgRating": 4.5,
+            "feeDetails": {
+              "restaurantId": "69274",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3300
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3300
+            },
+            "parentId": "1607",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "5K+",
+            "sla": {
+              "deliveryTime": 32,
+              "lastMileTravel": 3.6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "32 mins",
+              "lastMileTravelString": "3.6 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:00:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "40% OFF",
+              "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/chai-point-ashok-nagar-church-street-bangalore-69274",
+            "type": "WEBLINK"
+          }
+        },
+        {
+          "info": {
+            "id": "69876",
+            "name": "Subway",
+            "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+            "locality": "UB City",
+            "areaName": "Ashok Nagar",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+              "Fast Food",
+              "Salads",
+              "Snacks",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+              "restaurantId": "69876",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 2700
+            },
+            "parentId": "2",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 26,
+              "lastMileTravel": 2.4,
+              "serviceability": "SERVICEABLE",
+              "slaString": "26 mins",
+              "lastMileTravelString": "2.4 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-07-26 23:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  
+                },
+                "textBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "50% OFF",
+              "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+              "title": {
+                
+              },
+              "subTitle": {
+                
+              },
+              "message": {
+                
+              },
+              "customIcon": {
+                
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT"
+          },
+          "analytics": {
+            
+          },
+          "cta": {
+            "link": "https://www.swiggy.com/restaurants/subway-ub-city-ashok-nagar-bangalore-69876",
+            "type": "WEBLINK"
+          }
+        }
   ];
 
 export default resList;
