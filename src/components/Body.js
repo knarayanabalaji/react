@@ -1,6 +1,6 @@
 import RestaurentCard from "./RestaurentCard";
 import { useEffect, useState } from "react";
-import resList from "../utils/mockData";
+// import resList from "../utils/mockData";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
