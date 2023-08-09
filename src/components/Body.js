@@ -2,12 +2,16 @@ import RestaurentCard from "./RestaurentCard";
 import { useEffect, useState } from "react";
 // import resList from "../utils/mockData";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   // Local State Variable - Super powerful variable;
   const [listOfRestaurents, setListOfRestaurents] = useState([]);
   const [filteredRestaurents, setFilteredRestaurents] = useState([]);
   const [searchText, setSearchText] = useState("");
+  
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -18,9 +22,7 @@ const Body = () => {
     );
 
     const json = await data.json();
-    console.log(
-      json.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
-    );
+    
     setListOfRestaurents(
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
@@ -28,6 +30,7 @@ const Body = () => {
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
+  const onlineStatus = useOnlineStatus();
   // Normal JS variable
   let listOfRestaurentsJS = [
     {
@@ -64,6 +67,8 @@ const Body = () => {
       },
     },
   ];
+
+  if (onlineStatus === false ) return <h1>Looks like you lost your internet connection.</h1>
 
   return listOfRestaurents.length === 0 ? (
     <Shimmer />
